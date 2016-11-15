@@ -1,0 +1,49 @@
+body {
+    background: darkblue;
+    font-size: 200%;
+    font-family: 'Freckle Face', cursive;
+    color: white;
+}
+
+h1 {
+    text-align: center;
+}
+
+h3, h4 {
+    text-align: center;
+}
+
+img {
+    display: block;
+    margin: auto;
+    width: 200px;
+}
+
+div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; /* or space-around */
+} 
+
+a {
+  display: inline-block;
+  margin-bottom: 8px;
+  width: calc(50% - 4px);
+}
+
+.dead-dudes {
+    width: 400px;
+}
+
+figcaption {
+    text-align: center;
+    color: white;
+}
+
+a:link{
+  text-decoration: none!important;
+}
+
+#circle-k {
+    width: 400px;
+}
